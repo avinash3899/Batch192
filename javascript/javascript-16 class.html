@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Classes</title>
+    <script>
+        var emp = class{
+            constructor(id,name){
+                this.id=id;
+                this.name=name;
+            }
+            details() {
+                document.write("<br />"+this.id+" "+this.name);
+                /*document.getElementById(idname).innerHTML+=("<br />"+this.id+" "+this.name);*/
+            }
+        }
+
+        var person1=new emp(101,"Sunil");
+        var person2=new emp(102,"Mohit");
+        person1.details();
+        person2.details();
+        
+    </script>
+</head>
+<body>
+    <p id="demo"></p>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 6</title>
+  
+    <style>
+        table{
+            border: 2px solid tomato;
+            border-radius: 20px;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            
+        }
+        th,td{
+            padding: 20px;
+        }
+    </style>
+  
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td colspan="2">Enter First Number : </td>
+            <td colspan="2"><input type="text" name="fn" id="fn"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Enter Second Number : </td>
+            <td colspan="2"><input type="text" name="sn" id="sn"></td>
+        </tr>
+        <tr style="text-align: center;">
+            <td><input type="button" value="Add" onclick="add()"></td>
+            <td><input type="button" value="Subtract" onclick="sub()"></td>
+            <td> <input type="button" value="Multiply" onclick="mul()"></td>
+            <td><input type="button" value="Divide" onclick="div()"></td>
+        </tr>
+        <tr style="text-align: center;">
+            <td><input type="button" value="Max" onclick="maximum()"></td>
+            <td><input type="button" value="Min" onclick="minimum()"></td>
+            <td> <input type="button" value="Power" onclick="po()"></td>
+            <td><input type="button" value="Root" onclick="root()"></td>
+        </tr>
+        <tr style="text-align: center;">
+            <td colspan="2">Result :</td>
+            <td colspan="2"><input type="text" id="answer" disabled></td>
+
+        </tr>
+
+    </table>
+    <p id="demo"></p>
+    <script>
+        function add() {
+            var a = parseInt(document.getElementById("fn").value);
+            var b = parseInt(document.getElementById("sn").value);
+            var c = a + b;
+            document.getElementById("answer").value=("Sum is " + c);
+        }
+        function sub() {
+            var a = parseInt(document.getElementById("fn").value);
+            var b = parseInt(document.getElementById("sn").value);
+            var c = a - b;
+            document.getElementById("answer").value=("Difference is " + c);
+        }
+        function mul() {
+            var a = parseInt(document.getElementById("fn").value);
+            var b = parseInt(document.getElementById("sn").value);
+            var c = a * b;
+            document.getElementById("answer").value=("The product is " + c);
+        }
+        function div() {
+            var a = parseInt(document.getElementById("fn").value);
+            var b = parseInt(document.getElementById("sn").value);
+            var c = a / b;
+            document.getElementById("answer").value=("Quotient is " + c);
+        }
+        function maximum() {
+            var a = parseInt(document.getElementById("fn").value);
+            var b = parseInt(document.getElementById("sn").value);
+            var c = (a>b)?a:b;
+            document.getElementById("answer").value=("Greater number is " + c);
+        }
+        function minimum() {
+            var a = parseInt(document.getElementById("fn").value);
+            var b = parseInt(document.getElementById("sn").value);
+            var c = (a>b)?b:a;
+            document.getElementById("answer").value=("Smaller number is " + c);
+        }
+        function po() {
+            var a = parseInt(document.getElementById("fn").value);
+            var b = parseInt(document.getElementById("sn").value);
+            var c = a**b;
+            document.getElementById("answer").value=("Greater number is " + c);
+        }
+        
+    </script>
+</body>
+
+</html>

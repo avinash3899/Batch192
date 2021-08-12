@@ -1,0 +1,137 @@
+Program-6
+----------------------
+wa.p to enter 3 nos and find the greatest
+---------------------------------------------------------------------------------
+package org.Monday;
+import java.lang.*;//default package
+import java.util.*
+public class Second 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ob=new Scanner(System.in);//this is to take input
+		System.out.println("enter 3 nos");
+		float a=ob.nextFloat();//to accept the integer values
+		float b=ob.nextFloat();
+		float c=ob.nextFloat();
+				if(a>b && a>c)
+			System.out.println("the greatest is "+a);
+		else if(b>a && b>c)
+			System.out.println("the greatest is "+b);
+		else
+			System.out.println("the greatest is "+c);
+	}
+}
+
+
+-----------------------------------------------------------------------
+
+
+
+
+//wap to create a employee class pass the data using constructor
+//empno,name,salary,designation.
+
+
+
+
+
+--------------------------------------------------------------------------
+wap to create a employee class and a department class inheriting it.
+
+employee class :- empno,name,salary,designation
+
+department class :-deptno,deptname,location
+
+create object for department class.display all the details
+---------------------------------------------------------------------------------------
+
+
+
+
+
+
+wap to display a bank class having :- accno,name,balance,insurance
+
+Insurance class :- insno,instype,premium
+Display the details of bank class.
+
+
+
+
+
+--------------------------------------------------------------
+wap to enter details of a 
+car class having regno,cname,price,type(petrrol/disel)
+luxuary car having ac,stereo,safety
+use inheritance and constructor and display the details.
+create 2 or more objects.
+--------------------------------------------------------------------------
+
+
+wap to enter Student --rollno,name,address,school
+School--name,loc,board
+and display the data using getter and setter
+-----------------------------------------------------------------------
+
+
+wap for a bank transaction using abstract class.
+abstract class bank
+{
+abstract methods like open account,deposite,withdraw
+and finally display the balance.
+}
+
+
+----------------------------------------------------------------------------
+
+
+create a interface employee :- input details(empno,name,address)
+			display details()
+interface dept:- input details(deptno,name,loc)
+			display details()
+create a child class to take input and display the details.  
+------------------------------------------------------------------------------
+
+
+
+Assignment
+----------------------
+In a cruise there are 3 types of tickets.
+1)crew member :- free
+2)Adult above 10 years:- Rs 500
+3)Children below 10 years :-Rs 250
+Enter details of all the passengers and count no of crew members ,Adult and children traveling .
+Also display the details of all the travellers.----Using LinkList
+--------------------------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------
+Assignment 1:
+---------------------
+class Book 
+{    
+int id;    
+String name,author,publisher;    
+int quantity;    
+}
+---------------------------------------------------------------
+//Creating map of Books with (slno as key and Book as value)   
+    Map<Integer,Book> map=new HashMap<Integer,Book>();    
+display the book details who's slno is entered.
+--------------------------------------------------------------------
+Assignment 2:
+employee class has address,BankAccount
+address class
+BankAccount class
+create a Map and enter the key and display the employee details with address and Bankdetails.
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------
+
+wap to find out who gets the movie tickets out of the 3 friends.
+There are 2 movie tickets only.
+--------------------------------------------------------------------------------------
+
+

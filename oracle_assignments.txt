@@ -1,0 +1,26 @@
+Assignement
+-------------------------------
+Create table employee having accno,name,address,dept,salary,
+find ta =10% of salary
+find da =20% of salary
+find hra =30% of salary
+find tax =15% of salary
+and gross =salary+ta+da+hra-tax
+
+there should be 10 columns in the tabble.
+
+-------------------------
+
+create bank table :- accno pk,name,balance
+create transaction table :- accno fk,trans,amount
+---------------------------------
+//wap to enter 5 nos and find sum and average. plsql
+----------------------
+
+create table circle(radius number,area number);
+---------------------------------
+query to find third highest salary
+------------------------------------
+
+create a data base for online airlines reservation system
+----------------------

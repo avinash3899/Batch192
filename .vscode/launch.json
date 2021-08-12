@@ -1,0 +1,112 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch E",
+            "request": "launch",
+            "mainClass": "E",
+            "projectName": "Batch192_92e269e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestMultiPriority1",
+            "request": "launch",
+            "mainClass": "TestMultiPriority1",
+            "projectName": "Batch192_92e269e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestSleepMethod1",
+            "request": "launch",
+            "mainClass": "TestSleepMethod1",
+            "projectName": "Batch192_92e269e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch JdbcAssignment",
+            "request": "launch",
+            "mainClass": "JdbcAssignment",
+            "projectName": "Batch192_92e269e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch A",
+            "request": "launch",
+            "mainClass": "A",
+            "projectName": "Batch192_92e269e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch B",
+            "request": "launch",
+            "mainClass": "B",
+            "projectName": "Batch192_92e269e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment2",
+            "request": "launch",
+            "mainClass": "Assignment2",
+            "projectName": "Batch192_92e269e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch BookAssignment",
+            "request": "launch",
+            "mainClass": "BookAssignment",
+            "projectName": "Batch192_92e269e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedLst",
+            "request": "launch",
+            "mainClass": "LinkedLst",
+            "projectName": "Batch192_92e269e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Batch192_92e269e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedLst",
+            "request": "launch",
+            "mainClass": "LinkedLst",
+            "projectName": "Batch192_974e0629"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch A",
+            "request": "launch",
+            "mainClass": "A",
+            "projectName": "Batch192_974e0629"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrLst",
+            "request": "launch",
+            "mainClass": "ArrLst",
+            "projectName": "Batch192_974e0629"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Batch192_974e0629"
+        }
+    ]
+}
